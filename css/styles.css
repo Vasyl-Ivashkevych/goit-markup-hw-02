@@ -7,13 +7,44 @@ body {
     color: #000000;
 }
 
+.accent {
+    color: #2196F3;
+}
+
 ul {
     list-style: none;
 }
 
 .logo:hover,
 .logo:focus {
-    color: blue;
+    color: #2196F3;
+}
+
+.mail {
+    color: #757575;
+}
+
+.tel {
+    color: #757575;
+}
+
+.mail:hover,
+.mail:focus {
+    color: #2196F3;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
+
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
 
 .site-nav .link {
@@ -27,4 +58,19 @@ ul {
 
 .section-title {
     color: #212121;
+}
+
+.features-list .title {
+    color: #212121;
+}
+
+.buttons {
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+.buttons:hover,
+.buttons:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
 }
