@@ -1,6 +1,8 @@
 body {
-  background-color: #fff;
-  color: #757575;  
+    background-color: #fff;
+    color: #757575;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;  
 }
 
 .logo {
@@ -28,6 +30,11 @@ ul {
     color: #757575;
 }
 
+.tel:hover,
+.tel:focus {
+    color: #2196F3;
+}
+
 .mail:hover,
 .mail:focus {
     color: #2196F3;
@@ -42,7 +49,7 @@ ul {
     color: #FFFFFF;
 }
 
-.button {
+.btn {
     background-color: #2196F3;
     color: #FFFFFF;
 }
@@ -56,6 +63,10 @@ ul {
     color: #2196F3;
 }
 
+.site-nav .link.current {
+    color: #2196F3;
+}
+
 .section-title {
     color: #212121;
 }
@@ -64,13 +75,13 @@ ul {
     color: #212121;
 }
 
-.buttons {
+.btns {
     background-color: #F5F4FA;
     color: #212121;
 }
 
-.buttons:hover,
-.buttons:focus {
+.btns:hover,
+.btns:focus {
     background-color: #2196F3;
     color: #FFFFFF;
 }
