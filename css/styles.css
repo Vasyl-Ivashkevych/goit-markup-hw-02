@@ -140,21 +140,15 @@ body {
     color: var(--black-title);
 }
 
-/*section-works*/
+/*section-skill*/
 
-.section-title {
+.skill-title {
     color: var(--black-title);
     font-weight: 700;
-    font-size: 18px;
-    line-height: 2.0;
-    letter-spacing: 0.06em;    
-}
-
-.section-text {
-    color: var(--basic-text);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.06em; 
 }
 
 /*section-team*/
@@ -172,6 +166,24 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px; 
+}
+
+
+/*section-portfolio */
+
+.section-title {
+    color: var(--black-title);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;    
+}
+
+.section-text {
+    color: var(--basic-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
 }
 
 /*button-portfolio*/
