@@ -29,7 +29,7 @@ ul {
 }
 
 /*nav*/
-.site-nav .link {
+.site-nav .link-nav {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -37,8 +37,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
     color: #2196F3;
 }
 
@@ -103,9 +103,9 @@ ul {
     letter-spacing: 0.06em;
 }
 
-/*section*/
+/*section-features*/
 
-.section-title {
+.section-team-title {
     color: #212121;
     font-weight: 700;
     font-size: 36px;
@@ -114,7 +114,7 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.title {
+.featurs-title {
     color: #212121;
     font-weight: 700;
     font-size: 14px;
@@ -123,7 +123,7 @@ ul {
     text-transform: uppercase;
 }
 
-.text {
+.featurs-text {
     color: #757575;
     font-weight: 400;
     font-size: 14px;
@@ -131,9 +131,45 @@ ul {
     letter-spacing: 0.03em;
     }
 
-.features-list .title {
+.features-list .featurs-title {
     color: #212121;
 }
+
+/*section-works*/
+
+.section-title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;    
+}
+
+.section-text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/*section-team*/
+
+.title-team {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.profession {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px; 
+}
+
+/*button-portfolio*/
 
 .btns {
     background-color: #F5F4FA;
@@ -147,9 +183,22 @@ ul {
     color: #FFFFFF;
 }
 
-.address {
+/*footer*/
 
+.footer {
+    background: #2F303A;
+}
+
+.address-nav {
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
+}
+
+.address-contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }

@@ -14,16 +14,16 @@
     />
   </head>
   <body>
-    <header class="page-header">
-      <nav>
+    <header class="header">
+      <nav class="navigation">
         <a href="./index.html" class="logo"
           ><span class="accent">Web</span>Studio</a
         >
 
         <ul class="site-nav">
           <li><a href="" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+          <li><a href="./portfolio.html" class="link-nav">Портфоліо</a></li>
+          <li><a href="" class="link-nav">Контакти</a></li>
         </ul>
       </nav>
       <ul class="contacts">
@@ -42,32 +42,32 @@
         <button type="button" class="btn">Замовити послугу</button>
       </section>
 
-      <section class="section">
+      <section class="section-features">
         <h2>Переваги</h2>
         <ul class="features-list">
           <li>
-            <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="text">
+            <h3 class="featurs-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="featurs-text">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="text">
+            <h3 class="featurs-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="featurs-text">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3 class="title">ПЛАНУВАННЯ</h3>
-            <p class="text">
+            <h3 class="featurs-title">ПЛАНУВАННЯ</h3>
+            <p class="featurs-text">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="text">
+            <h3 class="featurs-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="featurs-text">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -75,10 +75,10 @@
         </ul>
       </section>
 
-      <section class="section">
+      <section class="section-works">
         <h2 class="section-title">Чим ми займаємося</h2>
 
-        <ul>
+        <ul class="section-icon">
           <li>
             <img src="./image/img.jpg" alt="image" width="370" height="294" />
           </li>
@@ -91,9 +91,9 @@
         </ul>
       </section>
 
-      <section class="section">
-        <h2 class="section-title">Наша команда</h2>
-        <ul>
+      <section class="section-team">
+        <h2 class="section-team-title">Наша команда</h2>
+        <ul class="list-team">
           <li>
             <img
               src="./image/person.jpg"
@@ -102,7 +102,7 @@
               height="260"
             />
             <h3 class="title-team">Ігор Дем'яненко</h3>
-            <p>Product Designer</p>
+            <p class="profession">Product Designer</p>
           </li>
           <li>
             <img
@@ -112,7 +112,7 @@
               height="260"
             />
             <h3 class="title-team">Ольга Рєпіна</h3>
-            <p>Frontend Developer</p>
+            <p class="profession">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -122,7 +122,7 @@
               height="260"
             />
             <h3 class="title-team">Микола Тарасов</h3>
-            <p>Marketing</p>
+            <p class="profession">Marketing</p>
           </li>
           <li>
             <img
@@ -132,7 +132,7 @@
               height="260"
             />
             <h3 class="title-team">Михайло Єрмаков</h3>
-            <p>UI Designer</p>
+            <p class="profession">UI Designer</p>
           </li>
         </ul>
       </section>
@@ -142,18 +142,27 @@
       <a href="./index.html" class="logo"
         ><span class="accent">Web</span>Studio</a
       >
-      <address>
+      <address class="address">
         <ul>
-          <li class="address">
+          <li>
             <a
               href="https://www.google.com.ua/maps/"
+              class="address-nav"
               target="_blank"
               rel="noreferrer noopener"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-contact"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="address-contact"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
