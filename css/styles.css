@@ -1,20 +1,26 @@
 body {
     background-color: #fff;
     color: #757575;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Roboto', sans-serif;  
-}
-
-.logo {
-    color: #000000;
-}
-
-.accent {
-    color: #2196F3;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;  
 }
 
 ul {
     list-style: none;
+}
+
+/*header*/
+
+.logo {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.accent {
+    color: #2196F3;
 }
 
 .logo:hover,
@@ -22,12 +28,41 @@ ul {
     color: #2196F3;
 }
 
+/*nav*/
+.site-nav .link {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.site-nav .link.current {
+    color: #2196F3;
+}
+
+/*contact*/
+
 .mail {
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
 }
 
 .tel {
     color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .tel:hover,
@@ -40,6 +75,8 @@ ul {
     color: #2196F3;
 }
 
+/*hero*/
+
 .hero {
     background-color: #2F303A;
 }
@@ -47,29 +84,52 @@ ul {
 .hero-title {
     background-color: #2F303A;
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .btn {
     background-color: #2196F3;
     color: #FFFFFF;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
-.site-nav .link {
-    color: #212121;
-}
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2196F3;
-}
-
-.site-nav .link.current {
-    color: #2196F3;
-}
+/*section*/
 
 .section-title {
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+
+.title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.text {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    }
 
 .features-list .title {
     color: #212121;
@@ -78,10 +138,18 @@ ul {
 .btns {
     background-color: #F5F4FA;
     color: #212121;
+    font-family: inherit;
 }
 
 .btns:hover,
 .btns:focus {
     background-color: #2196F3;
     color: #FFFFFF;
+}
+
+.address {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
