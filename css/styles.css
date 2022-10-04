@@ -52,7 +52,7 @@ body {
 
 /*contact*/
 
-.mail {
+.connect {
   color: var(--basic-text);
   font-weight: 500;
   font-size: 14px;
@@ -60,21 +60,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.tel {
-  color: var(--basic-text);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.tel:hover,
-.tel:focus {
-  color: var(--accent);
-}
-
-.mail:hover,
-.mail:focus {
+.connect:hover,
+.connect:focus {
   color: var(--accent);
 }
 
