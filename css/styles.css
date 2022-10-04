@@ -21,6 +21,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  text-decoration: none;
 }
 
 .accent {
@@ -39,6 +40,7 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .site-nav .link-nav:hover,
@@ -58,6 +60,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .connect:hover,
@@ -190,6 +193,7 @@ body {
   color: var(--additional-color);
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 
 .address-nav:hover,
@@ -201,6 +205,7 @@ body {
   color: var(--secondary-color);
   font-size: 14px;
   line-height: 1.71;
+  text-decoration: none;
 }
 
 .address-contact:hover,
