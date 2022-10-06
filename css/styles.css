@@ -217,6 +217,10 @@ body {
   background: #2f303a;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address-nav {
   color: var(--additional-color);
   font-size: 14px;
