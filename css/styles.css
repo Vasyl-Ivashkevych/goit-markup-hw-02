@@ -217,6 +217,20 @@ body {
   background: #2f303a;
 }
 
+.footer-logo {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--accent);
+}
+
 .address {
   font-style: normal;
 }
