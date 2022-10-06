@@ -134,6 +134,10 @@ body {
   color: var(--black-title);
 }
 
+.features-list {
+  list-style: none;
+}
+
 /*section-skill*/
 
 .skill-title {
@@ -143,6 +147,10 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.section-icon {
+  list-style: none;
 }
 
 /*section-team*/
@@ -160,9 +168,13 @@ body {
   line-height: 1.19;
 }
 
+.list-team {
+  list-style: none;
+}
+
 /*section-portfolio */
 
-.section-title {
+.filtr-title {
   color: var(--black-title);
   font-weight: 700;
   font-size: 18px;
@@ -170,7 +182,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.section-text {
+.filtr-text {
   color: var(--basic-text);
   font-size: 16px;
   line-height: 1.88;
@@ -191,6 +203,14 @@ body {
   color: var(--additional-color);
 }
 
+.filtr-btns {
+  list-style: none;
+}
+
+.filtr-works {
+  list-style: none;
+}
+
 /*footer*/
 
 .footer {
@@ -202,6 +222,10 @@ body {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+}
+
+.address-list {
+  list-style: none;
 }
 
 .address-nav:hover,
